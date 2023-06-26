@@ -1,6 +1,6 @@
 {
 	"files": ["next.config.js", "next-env.d.ts"],
-	"include": ["src", ".storybook"],
+	"include": ["src", ".storybook", ".next/types/**/*.ts"],
 	"exclude": ["node_modules"],
 	"compilerOptions": {
 		/* Visit https://aka.ms/tsconfig to read more about this file */
@@ -107,7 +107,8 @@
 		// "allowUnreachableCode": true,                     /* Disable error reporting for unreachable code. */
 
 		/* Completeness */
-		"skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+		"skipLibCheck": true,                                /* Skip type checking all .d.ts files. */
 		// "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
+		"plugins": [{"name": "next"}]
 	}
 }
