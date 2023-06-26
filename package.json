@@ -1,40 +1,31 @@
 {
-	"name": "@nebuloid/frontend",
+	"name": "game-board",
 	"private": false,
 	"license": "MIT",
 	"version": "0.0.0",
-	"description": "The frontend for my portfolio.",
+	"description": "A game board for a vttrpg.",
 	"keywords": [
 		"React",
 		"ReactJS",
 		"Next",
 		"NextJS",
-		"TypeScript",
-		"portfolio",
-		"personal",
-		"website"
+		"TypeScript"
 	],
 	"homepage": "https://nebuloid.dev",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/nebuloid-blog/frontend.git"
+		"url": "git+https://github.com/noltron000/game-board.git"
 	},
 	"bugs": {
 		"email": "noltron000@gmail.com",
-		"url": "https://github.com/nebuloid-blog/frontend/issues"
+		"url": "https://github.com/noltron000/game-board/issues"
 	},
 	"author": {
 		"name": "Nolan Kovacik",
 		"email": "noltron000@gmail.com",
 		"url": "https://nebuloid.dev/"
 	},
-	"contributors": [
-		{
-			"name": "Frances Coronel",
-			"email": "fvcproductions@gmail.com",
-			"url": "https://francescoronel.com/"
-		}
-	],
+	"contributors": [ ],
 	"packageManager": "yarn@3.2.1",
 	"main": "",
 	"type": "module",
